@@ -1,0 +1,142 @@
+.navbar{
+    width: auto;
+    height: auto;
+}
+.navbar-collapse{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    font-family: "Lucida Handwriting", cursive, sans-serif;
+}
+.dropdown-content a:hover {
+    background-color:beige;
+}
+
+/* Show the dropdown content on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.d-flex{
+    display: flex;
+    position: absolute;
+    bottom: 50;
+    right: 0;
+}
+.homepage{
+    background-image: url('../assets/images/homepage.jpg');
+    color:beige; /* Set text color to make it visible on a black background */
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center; /* Center the content horizontally */
+    padding: 100px 0; /* Add padding to push the content down from the top */
+    height: 100vh; /* Make the homepage take up the full viewport height */
+    font-size: large;
+    font-weight: bold;
+}
+.button {
+    color: rgb(88, 57, 57); /* Text color */
+    padding: 10px 20px; /* Padding around the text */
+    border: none; /* Remove border */
+    cursor: pointer; /* Add pointer cursor on hover */
+    font-size: 16px; /* Font size */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+.homepage h1{
+    font-size: 80px;
+    font-weight: bolder;
+}
+.article-box {
+    margin-bottom: 20px;
+    background-color:darkgray; /* Set the background color of the article boxes */
+    padding: 20px; /* Adjust padding for spacing */
+    .button{
+        color: rgb(88, 57, 57); /* Text color */
+        padding: 10px 20px; /* Padding around the text */
+        border: none; /* Remove border */
+        cursor: pointer; /* Add pointer cursor on hover */
+        font-size: 16px; /* Font size */
+        border-radius: 5px; /* Rounded corners */
+        transition: background-color 0.3s ease; /* Smooth color transition */
+    }
+}
+/* Footer styles */
+footer {
+    background-color: #705050; /* Background color for the footer */
+    color:beige; /* Text color */
+    padding: 30px 0; /* Vertical and horizontal padding */
+    .button{
+        color: rgb(88, 57, 57); /* Text color */
+        padding: 10px 20px; /* Padding around the text */
+        border: none; /* Remove border */
+        cursor: pointer; /* Add pointer cursor on hover */
+        font-size: 16px; /* Font size */
+        border-radius: 5px; /* Rounded corners */
+        transition: background-color 0.3s ease; /* Smooth color transition */
+    }
+}
+
+/* Footer columns */
+footer .col-md-3 {
+    margin-bottom: 30px; /* Spacing between columns */
+}
+
+/* Footer headings */
+footer h4 {
+    font-size: 18px; /* Heading font size */
+    margin-bottom: 15px; /* Spacing below headings */
+}
+
+/* Footer menu links */
+footer ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px; /* Spacing between menu items */
+}
+
+footer ul li a {
+    color: #fff; /* Menu link color */
+    text-decoration: none; /* Remove underlines from links */
+}
+
+footer ul li a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+/* Social media links */
+.social-media {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+}
+
+.social-media li {
+    margin-bottom: 10px; /* Spacing between social media links */
+}
+
+.social-media li a {
+    color: #fff; /* Social media link color */
+    text-decoration: none; /* Remove underlines from links */
+    display: inline-block;
+}
+
+.social-media li a i {
+    margin-right: 5px; /* Spacing between icon and text */
+    font-size: 20px; /* Icon size */
+}
+
+.social-media li a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+/* Contact Us form styles (customize as needed) */
+/* Add your Contact Us form styles here */
+
+/* Meet Our Chefs styles */
+footer ul li {
+    list-style-type: disc; /* Use bullet points for chef names */
+    margin-left: 20px; /* Indentation for chef names */
+}
